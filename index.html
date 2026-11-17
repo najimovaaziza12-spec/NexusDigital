@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusDigital — Professional Raqamli Mahsulotlar Bozori</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATSIYA BAR -->
+    <header class="navbar">
+        <div class="logo">⚡ NexusDigital</div>
+        <nav class="nav-links">
+            <a href="#products">Mahsulotlar</a>
+            <a href="#features">Afzalliklar</a>
+            <a href="#reviews">Sharhlar</a>
+            <a href="#contact">Aloqa</a>
+        </nav>
+        <div class="nav-actions">
+            <button id="theme-toggle" class="theme-btn" title="Rejimni o'zgartirish">🌙</button>
+            <button id="cart-toggle-btn" class="cart-btn">🛒 Savatcha (<span id="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <!-- HERO QISMI -->
+    <section class="hero">
+        <h1>Biznesingizni Keyingi Bosqichga olib Chiqing</h1>
+        <p>Telegram Mini App shablonlari, AI Chat-botlar, kontent avtomatizatsiyasi va eng sara raqamli mahsulotlar.</p>
+        <a href="#products" class="cta-button">Katalogni Ko‘rish</a>
+    </section>
+
+    <!-- AFZALLIKLAR -->
+    <section id="features" class="features-section">
+        <h2>Nima uchun NexusDigital?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>⚡ Darhol Yetkazish</h3>
+                <p>Xarid qilishingiz bilan mahsulotlar fayli va havolalari sizga darhol taqdim etiladi.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔒 100% Xavfsiz</h3>
+                <p>Barcha raqamli mahsulotlar mutaxassislar tomonidan tekshirilgan va kafolatlangan.</p>
+            </div>
+            <div class="feature-card">
+                <h3>💎 VIP Yordam</h3>
+                <p>Natijaga erishishingiz uchun shaxsiy maslahatlar va yopiq guruh imkoniyati.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAHSULOTLAR KATALOGI (YANGI SUPER XIZMATLAR BILAN) -->
+    <section id="products" class="products-section">
+        <h2>Talabgir Raqamli Mahsulotlar va Xizmatlar</h2>
+        <div class="product-grid">
+            
+            <!-- 1-Mahsulot: Telegram Mini App -->
+            <div class="product-card" data-id="1" data-title="Telegram Mini App Shablonlari" data-price="199000" data-format="GitHub repozitoriy + .zip manba kod" data-desc="Telegram ichida ishlaydigan mukammal mini-ilovalar do'koni shabloni." data-features="• Zamonaviy va moslashuvchan UI dizayn<br>• Tovarlar katalogi va savatcha tizimi<br>• To'lov tizimlari bilan integratsiya tayyor<br>• O'rnatish bo'yicha to'liq video qo'llanma">
+                <h3>📱 Telegram Mini App</h3>
+                <p>Telegram ichida ishlaydigan mukammal mini-ilovalar do'koni shabloni.</p>
+                <span class="price">199,000 UZS</span>
+                <div class="card-buttons">
+                    <button class="detail-btn">Batafsil</button>
+                    <button class="buy-btn">Sotib olish</button>
+                </div>
+            </div>
+
+            <!-- 2-Mahsulot: AI Chat-Bot -->
+            <div class="product-card" data-id="2" data-title="AI Chat-Bot (Sun'iy Intellekt) Kodi" data-price="249000" data-format="Python / Node.js skriptlar to'plami" data-desc="Mijozlar bilan sun'iy intellekt kabi gaplashadigan aqlli Telegram bot." data-features="• ChatGPT / Claude API bilan bog'langan<br>• Kechayu kunduz avtomatik javob berish<br>• Biznesingiz uchun moslashtirish oson<br>• To'liq tayyor va sinovdan o'tgan kod">
+                <h3>🤖 AI Chat-Bot Kodi</h3>
+                <p>Mijozlar bilan sun'iy intellekt kabi gaplashadigan aqlli Telegram bot.</p>
+                <span class="price">249,000 UZS</span>
+                <div class="card-buttons">
+                    <button class="detail-btn">Batafsil</button>
+                    <button class="buy-btn">Sotib olish</button>
+                </div>
+            </div>
+
+            <!-- 3-Mahsulot: SMM Target va Kontent -->
+            <div class="product-card" data-id="3" data-title="Instagram & TikTok Target To'plami" data-price="49000" data-format="Notion kalendar + PDF qo'llanma" data-desc="Ijtimoiy tarmoqlarda mijoz topish uchun 30 kunlik kontent kalendar va target strategiyasi." data-features="• 30 kunlik tayyor post va reels g'oyalari<br>• Sotuvga olib boruvchi reklama matnlari<br>• Target sozlash bo'yicha qadam-baqadamsiz qo'llanma<br>• Har qanday biznesga moslashadi">
+                <h3>🎯 Target & Kontent To'plami</h3>
+                <p>Ijtimoiy tarmoqlarda mijoz topish uchun 30 kunlik kontent kalendar va target strategiyasi.</p>
+                <span class="price">49,000 UZS</span>
+                <div class="card-buttons">
+                    <button class="detail-btn">Batafsil</button>
+                    <button class="buy-btn">Sotib olish</button>
+                </div>
+            </div>
+
+            <!-- 4-Mahsulot: AI Promptlar -->
+            <div class="product-card" data-id="4" data-title="AI Promptlar To'plami" data-price="35000" data-format="Notion havola + .docx hujjat" data-desc="Marketing va kontent yaratishni avtomatlashtiruvchi 500+ maxsus promptlar." data-features="• Marketing va SMM uchun 200+ sotuv promptlari<br>• Kopirayting va matn yozish ko'rsatmalari<br>• ChatGPT va Claude uchun moslashtirilgan">
+                <h3>⚡ AI Promptlar To‘plami</h3>
+                <p>Marketing va kontent yaratishni avtomatlashtiruvchi 500+ maxsus promptlar.</p>
+                <span class="price">35,000 UZS</span>
+                <div class="card-buttons">
+                    <button class="detail-btn">Batafsil</button>
+                    <button class="buy-btn">Sotib olish</button>
+                </div>
+            </div>
+
+            <!-- 5-Mahsulot: Veb-Dizayn UI Kit -->
+            <div class="product-card" data-id="5" data-title="Veb-Dizayn UI Kit & Landing" data-price="59000" data-format="Figma fayl havolasi" data-desc="Dizaynerlar va dasturchilar uchun zamonaviy va qulay tayyor UI komponentlar to'plami." data-features="• Zamonaviy dark/light rejimga mos komponentlar<br>• Tayyor Landing Page bloklari va shablonlar<br>• Figma uchun to'liq tayyor manba fayl">
+                <h3>💻 Veb-Dizayn UI Kit</h3>
+                <p>Dizaynerlar va dasturchilar uchun zamonaviy va qulay tayyor UI komponentlar to'plami.</p>
+                <span class="price">59,000 UZS</span>
+                <div class="card-buttons">
+                    <button class="detail-btn">Batafsil</button>
+                    <button class="buy-btn">Sotib olish</button>
+                </div>
+            </div>
+
+            <!-- 6-Mahsulot: VIP Konsultatsiya -->
+            <div class="product-card" data-id="6" data-title="VIP Konsultatsiya + Yopiq Guruh" data-price="149000" data-format="Telegram yopiq kanalga kirish" data-desc="Shaxsiy yordam, strategik tahlil va muallifning yopiq VIP klubiga doimiy obuna." data-features="• Shaxsiy chat orqali maslahat va tahlil<br>• Biznesingizni noldan audit qilish<br>• Yopiq Telegram guruhda doimiy savol-javob">
+                <h3>👑 VIP Konsultatsiya</h3>
+                <p>Shaxsiy yordam, strategik tahlil va muallifning yopiq VIP klubiga doimiy obuna.</p>
+                <span class="price">149,000 UZS</span>
+                <div class="card-buttons">
+                    <button class="detail-btn">Batafsil</button>
+                    <button class="buy-btn">Sotib olish</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MIJOZLAR SHARHLARI (TRUST BLOCK) -->
+    <section id="reviews" class="features-section" style="background: var(--card-bg); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+        <h2>Mijozlarimiz Nima Deydi?</h2>
+        <div class="features-grid">
+            <div class="feature-card" style="background: var(--bg-color);">
+                <p>"Telegram Mini App shablonini olib, o'z mijozimga 3 barobar qimmatga o'rnatib berdim. Kodlari mukammal ishlayapti!"</p>
+                <strong style="color: var(--accent); font-size: 0.9rem;">— Bekzod T., Dasturchi</strong>
+            </div>
+            <div class="feature-card" style="background: var(--bg-color);">
+                <p>"AI Chat-bot kodi orqali magazinimizga kelayotgan savollarning 80%iga avtomatik javob berilyapti. Vaqtimiz juda ko'p tejoldi."</p>
+                <strong style="color: var(--accent); font-size: 0.9rem;">— Jasur M., Biznes egasi</strong>
+            </div>
+            <div class="feature-card" style="background: var(--bg-color);">
+                <p>"Target to'plami va kontent reja yordamida bir haftada ilk xaridorlarimizni topdik. Juda zo'r material ekan, rahmat!"</p>
+                <strong style="color: var(--accent); font-size: 0.9rem;">— Malika K., SMM mutaxassis</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALOQA -->
+    <section id="contact" class="contact-section">
+        <h2>Biz bilan Bog‘lanish</h2>
+        <form class="contact-form" id="contact-form" novalidate>
+            <input type="text" id="contact-name" placeholder="Ismingiz" required>
+            <input type="email" id="contact-email" placeholder="Elektron pochtangiz" required>
+            <textarea id="contact-msg" placeholder="Xabaringiz yoki savolingiz..." rows="4" required></textarea>
+            <button type="submit" class="cta-button">Xabarni yuborish</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 NexusDigital. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <!-- TOAST CONTAINER -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- SAVATCHA MODAL (KOMBO CHEGIRMA BILAN) -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Sizning Savatchangiz</h2>
+            <div id="cart-items-list">
+                <p class="empty-cart-text">Savatchangiz bo'sh</p>
+            </div>
+            <div id="discount-banner" style="display: none; background: rgba(56, 189, 248, 0.1); border: 1px dashed var(--accent); padding: 10px; border-radius: 8px; margin: 15px 0; font-size: 0.9rem; color: var(--accent); text-align: center;">
+                🔥 Kombo Aksiya: 2 tadan ko'p mahsulot uchun 15% chegirma qo'shildi!
+            </div>
+            <div class="cart-total">
+                Jami: <span id="cart-total-price">0</span> UZS
+            </div>
+            <button id="checkout-btn" class="cta-button" style="width: 100%;">To‘lovni amalga oshirish</button>
+        </div>
+    </div>
+
+    <!-- TO'LOV USULLARI MODALI -->
+    <div id="payment-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-payment" style="position: absolute; top: 15px; right: 20px; font-size: 1.8rem; cursor: pointer; color: var(--text-muted);">&times;</span>
+            <h2>To‘lov turini tanlang</h2>
+            <p style="color: var(--text-muted); margin-bottom: 20px; font-size: 0.95rem;">Quyidagi to‘lov tizimlaridan birini tanlang:</p>
+            
+            <div class="payment-methods-grid">
+                <div class="pay-method-card" data-method="Click / Payme">
+                    <strong>💳 Click / Payme / UzCard</strong>
+                    <p>O'zbekiston bank kartalari orqali</p>
+                </div>
+                <div class="pay-method-card" data-method="Telegram Pay">
+                    <strong>🤖 Telegram Pay / Bot</strong>
+                    <p>Telegram orqali tezkor to'lov</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BATAFSIL MODAL OYNASI -->
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-detail">&times;</span>
+            <h2 id="modal-product-title">Mahsulot Nomi</h2>
+            <p id="modal-product-desc" style="margin: 10px 0; color: var(--text-muted);"></p>
+            
+            <div class="modal-features-box" style="background: var(--bg-color); padding: 15px; border-radius: 10px; margin: 15px 0; border: 1px solid var(--border-color);">
+                <strong>Ichida nima bor:</strong>
+                <p id="modal-product-features" style="margin-top: 5px; font-size: 0.95rem; color: var(--text-muted);"></p>
+            </div>
+
+            <p style="font-size: 0.9rem; color: var(--accent);">Format: <span id="modal-product-format"></span></p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px; flex-wrap: wrap; gap: 15px;">
+                <span class="price" id="modal-product-price" style="margin: 0;">0 UZS</span>
+                <button id="modal-buy-btn" class="cta-button">Savatchaga qo'shish</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- XARIDDAN KEYIN YUKLAB OLISH MODALI -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content" style="text-align: center;">
+            <h2>🎉 To'lov muvaffaqiyatli tasdiqlandi!</h2>
+            <p style="margin: 15px 0; color: var(--text-muted);">Xaridingiz uchun rahmat. Quyidagi tugmalar orqali mahsulotlaringizni qo'lga kiriting:</p>
+            <div id="download-area" style="margin: 20px 0; text-align: left;"></div>
+            <button id="close-success-btn" class="cta-button" style="background: var(--border-color); color: var(--text-color); width: 100%;">Yopish</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
